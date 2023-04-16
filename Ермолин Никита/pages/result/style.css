@@ -1,0 +1,44 @@
+body{
+    background-image: url("https://img-s1.onedio.com/id-5e301f552b0e4a954870531c/rev-0/raw/s-b7228ad67c116cd6ba83a44b34b460f3ab80f360.gif");
+}
+
+h1{
+    color: white;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(112, 112, 112, 0.7);
+    border: 2px solid black;
+    height: 800px;
+}
+
+.result p{
+    font-size: 50px;
+    color: white;
+}
+
+#result{
+    text-align: center;
+}
+
+.choice{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    margin: auto 0;
+}
+
+.choice button{
+    width: 50%;
+    height: 40%;
+    font-size: 40px;
+    background-color: rgb(176, 176, 176);
+    transition: 1s;
+    margin: auto 0;
+}
+
+.choice button:hover{
+    background-color: rgb(255, 255, 255);
+}

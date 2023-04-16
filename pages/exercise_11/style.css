@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    overflow:hidden
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.blocks{
+    width: 25%;
+    height: 500px;
+    border: 5px solid black;
+}
+
+.blocks p{
+    text-align: center;
+    font-size: 200%;
+}
+
+.inputs{
+    width: 25%;
+    height: 500px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs input{
+    font-size: 200%;
+    margin: 15px;
+}
+
+#done{
+    font-size: 30px;
+    background-color: #fff;
+}
+
+#instuction{
+    font-size: 25px;
+}

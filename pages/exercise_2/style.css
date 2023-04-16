@@ -1,0 +1,296 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 10px;
+    border: 5px solid rgba(0, 0, 0, 0.6);
+    
+}
+
+nav button {
+    background-color: rgb(170, 170, 170);
+    border: 5px solid rgb(72, 72, 72);
+    border-radius: 2px;
+    padding: 0 10px;
+    margin: 10px 10px;
+    width: 30%;
+    height: 50px;
+    font-size: larger;
+    transition: 400ms;
+}
+
+nav button:active {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    padding: 0 10px;
+    margin: 10px 10px;
+    width: 30%;
+    height: 50px;
+    font-size: larger;
+}
+
+.cube1 {
+    position: absolute;
+    top:  calc(55% - 300px / 2);
+    left: calc(10% - 300px / 2);
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(700px)  rotateX(0) rotateY(0);
+    transform-origin: 50% 50%; 
+    transition: all 1s ease;
+    
+}
+
+.cube2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin: 10px;
+    top:  calc(55% - 300px / 2);
+    left: calc(23% - 300px / 2);
+    transform-style: preserve-3d;
+    transform: perspective(700px)  rotateX(0) rotateY(0);
+    transition: all 1s ease;
+}
+
+.cube3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin: 10px;
+    top:  calc(55% - 300px / 2);
+    left: calc(36% - 300px / 2);
+    transform-style: preserve-3d;
+    transform: perspective(700px)  rotateX(0) rotateY(0);
+    transition: all 1s ease;
+}
+
+.cube4 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin: 10px;
+    top:  calc(55% - 300px / 2);
+    left: calc(49% - 300px / 2);
+    transform-style: preserve-3d;
+    transform: perspective(700px)  rotateX(0) rotateY(0);
+    transition: all 1s ease;
+}
+
+.cube5 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin: 10px;
+    top:  calc(55% - 300px / 2);
+    left: calc(62% - 300px / 2);
+    transform-style: preserve-3d;
+    transform: perspective(700px)  rotateX(0) rotateY(0);
+    transition: all 1s ease;
+}
+
+.cube6 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin: 10px;
+    top:  calc(55% - 300px / 2);
+    left: calc(75% - 300px / 2);
+    transform-style: preserve-3d;
+    transform: perspective(700px)  rotateX(0) rotateY(0);
+    transition: all 1s ease;
+}
+
+.cube1 > article {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    transform-style: preserve-3d;
+    background: linear-gradient(0deg, #ffffff, #f2f2f2);
+    color: rgb(80, 39, 0);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.cube2 > article {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    transform-style: preserve-3d;
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.cube3 > article {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    transform-style: preserve-3d;
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.cube4 > article {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    transform-style: preserve-3d;
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.cube5 > article {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    transform-style: preserve-3d;
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.cube6 > article {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    transform-style: preserve-3d;
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+}
+
+#back   {transform: rotateX(-180deg) translateZ(100px);}
+#top    {transform: rotateX( 90deg)  translateZ(100px);}
+#front  {transform:                  translateZ(100px);}
+#bottom {transform: rotateX(-90deg)  translateZ(100px);}
+#left   {transform: rotateY(-90deg)  translateZ(100px);}
+#right  {transform: rotateY( 90deg)  translateZ(100px);}
+
+.cube1 > article h1 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+    transform: rotateX(180deg);
+}
+
+.cube1 > article h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cube2 > article h1 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+    transform: rotateX(180deg);
+}
+
+.cube2 > article h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cube3 > article h1 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+    transform: rotateX(180deg);
+}
+
+.cube3 > article h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cube4 > article h1 {
+    margin-top: 55px;
+    font-size: 30px;;
+    text-align: center;
+    transform: rotateX(180deg);
+}
+
+.cube4 > article h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cube5 > article h1 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+    transform: rotateX(180deg);
+}
+
+.cube5 > article h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.cube6 > article h1 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+    transform: rotateX(180deg);
+}
+
+.cube6 > article h2 {
+    margin-top: 55px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#instuction{
+    font-size: 19px;
+}
+
+#guide{
+    font-size: 25px;
+    position: absolute;
+    top: 61%;
+}
+
+.red_text{
+    color: #900;
+}
+
+.orange_text{
+    color: rgb(255, 150, 0);
+}
+
+.yellow_text{
+    color: rgb(222, 218, 0);
+}
+
+.green_text{
+    color: rgb(80, 201, 0);
+}
+
+.blue_text{
+    color: rgb(0, 117, 153);
+}
+
+.blue_dark_text{
+    color: rgb(3, 0, 184);
+}

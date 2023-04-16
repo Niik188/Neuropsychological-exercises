@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../main.css">
+    <title>Упражнение 2</title>
+</head>
+<body>
+    <h1>Упражнение 2: Кручу-верчу 🇬🇧</h1>
+    <nav>
+        <button id="left-button">🠔</button>
+        <button id="top-button">🠕</button>
+        <button id="bottom-button">🠗</button>
+        <button id="right-button">➜</button>
+        <button id="rotate-button">⭮</button>
+        <button id="rotate-back-button">Обратно</button>
+        <button id="done">Готово</button>
+    </nav> 
+    <section class="cube1" id="cube1_id">
+        <article id="back" class="red_text">
+            <h1>-</h1>
+        </article>
+        <article id="top" class="red_text">
+            <h2>-</h2>
+        </article>
+        <article id="front">
+            <h2 class="red_text">red</h2>
+        </article>
+        <article id="bottom">
+            <h2 class="red_text">Волга</h2>
+        </article>
+        <article id="left">
+            <h2 class="red_text">La</h2>
+        </article>
+        <article id="right">
+            <h2 class="red_text">The</h2>
+        </article>
+    </section>
+    
+    <section class="cube2" id="cube2_id">
+        <article id="back">
+            <h1 class="orange_text">-</h1>
+        </article>
+        <article id="top">
+            <h2 class="orange_text">Волга</h2>
+        </article>
+        <article id="front">
+            <h2 class="orange_text">orange</h2>
+        </article>
+        <article id="bottom">
+            <h2 class="orange_text">-</h2>
+        </article>
+        <article id="left">
+            <h2 class="orange_text">Volga</h2>
+        </article>
+        <article id="right">
+            <h2 class="orange_text">-</h2>
+        </article>
+    </section>
+
+    <section class="cube3"  id="cube3_id">
+        <article id="back">
+            <h1 class="yellow_text">-</h1>
+        </article>
+        <article id="top">
+            <h2 class="yellow_text">самая</h2>
+        </article>
+        <article id="front">
+            <h2 class="yellow_text">yellow</h2>
+        </article>
+        <article id="bottom">
+            <h2 class="yellow_text">is</h2>
+        </article>
+        <article id="left">
+            <h2 class="yellow_text">-</h2>
+        </article>
+        <article id="right">
+            <h2 class="yellow_text">est</h2>
+        </article>
+    </section>
+
+    <section class="cube4" id="cube4_id">
+        <article id="back" >
+            <h1 class="green_text">-</h1>
+        </article>
+        <article id="top">
+            <h2 class="green_text">-</h2>
+        </article>
+        <article id="front">
+            <h2 class="green_text">green</h2>
+        </article>
+        <article id="bottom">
+            <h2 class="green_text">знаменитая</h2>
+        </article>
+        <article id="left">
+            <h2 class="green_text">une</h2>
+        </article>
+        <article id="right">
+            <h2 class="green_text">a</h2>
+        </article>
+    </section>
+
+    <section class="cube5" id="cube5_id">
+        <article id="back" >
+            <h1 class="blue_text">-</h1>
+        </article>
+        <article id="top">
+            <h2 class="blue_text">Russian</h2>
+        </article>
+        <article id="front">
+            <h2 class="blue_text">blue</h2>
+        </article>
+        <article id="bottom">
+            <h2 class="blue_text">-</h2>
+        </article>
+        <article id="left">
+            <h2 class="blue_text">fleuve</h2>
+        </article>
+        <article id="right">
+            <h2 class="blue_text">русская</h2>
+        </article>
+    </section>
+
+    <section class="cube6" id="cube6_id">
+        <article id="back" >
+            <h1 class="blue_dark_text">-</h1>
+        </article>
+        <article id="top">
+            <h2 class="blue_dark_text">река</h2>
+        </article>
+        <article id="front">
+            <h2 class="blue_dark_text">blue-dark</h2>
+        </article>
+        <article id="bottom">
+            <h2 class="blue_dark_text">russe</h2>
+        </article>
+        <article id="left">
+            <h2 class="blue_dark_text">-</h2>
+        </article>
+        <article id="right">
+            <h2 class="blue_dark_text">River</h2>
+        </article>
+    </section>
+    <p id="instuction">
+        Задание: Используя инструкцию, соберите фразу на английском языке. 
+        <br>Инструкция для выполнения упражнения: 
+        <br>1) для каждого цвета кубика подобрана последовательность действий; 
+        <br>2) действуя по инструкции, можно поворачивать кубики стрелками, находящимися в верхнем поле, вверх, вниз, вправо, влево, поворот по часовой стрелке; 
+        <br>3) в итоге из всех кубиков должна получиться фраза на английском языке; 
+        <br>4) если фраза не получилась, можно вернуться к любому кубику и выполнить инструкцию снова с помощью кнопки «Обратно».
+        <br>5) собрав фразу, нажмите «Готово».
+    </p>
+    <p id="guide">Инструкция: <br><span class="red_text">Red: 🠗x1, 🠔x1, ⭮x3;</span>  <br><span class="orange_text">Orange: 🠗x1, ➜x1, ⭮x1;</span> <br><span class="yellow_text">Yellow: ➜x1, 🠕x1, ⭮x3;</span> <br><span class="green_text">Green: 🠗x1, 🠔x1, ⭮x3;</span> <br><span class="blue_text">Blue: 🠔x1, 🠗x1, ⭮x1;</span> <br><span class="blue_dark_text">Blue-dark: 🠗x1, 🠔x1, ⭮x3.</span></p>
+    <script src="./code.js"></script>
+</body>
+</html>

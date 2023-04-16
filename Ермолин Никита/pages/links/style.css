@@ -1,0 +1,14 @@
+body{
+    background-image: url("https://vuzopedia.ru/storage/app/uploads/public/636/038/6db/6360386db9d96443886281.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.78);
+    height: 100%;
+}
+
+div p{
+    font-size: 150%;
+}

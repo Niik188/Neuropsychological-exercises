@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+button{
+    background-color: #fff;
+    font-size: 150%;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: rgb(213, 213, 213);
+}
+
+audio{
+    width: 30%;
+}
+
+#instuction{
+    font-size: 25px;
+}

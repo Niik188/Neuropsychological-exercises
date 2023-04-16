@@ -1,0 +1,56 @@
+body{
+    background-image: url("https://img-s1.onedio.com/id-5e301f552b0e4a954870531c/rev-0/raw/s-b7228ad67c116cd6ba83a44b34b460f3ab80f360.gif");
+    background-size: cover;
+    background-position-y:center;
+    height: 100vh;
+}
+
+span{
+    color: azure;
+    display: none;
+}
+
+h1{
+    color: white
+}
+
+.exercises{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.exercise{
+    width: 265px;
+    height: 150px;
+    background-color: rgba(83, 83, 83, 0.53);
+    margin: 30px;
+    border: 2px solid black;
+}
+
+.exercise h2{
+    color: rgb(255, 255, 255);
+}
+
+button{
+    font-size: 150%;
+    margin: 1px;
+    background-color: rgba(123, 123, 123, 0.275);
+    color: azure;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 1s;
+}
+
+button:hover{
+    font-size: 145%;
+    margin: 1px;
+}
+
+#done{
+    margin: 30px;
+    font-size: 250%;
+}
+
+#done:hover{
+    font-size: 200%;
+}
